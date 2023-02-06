@@ -31,6 +31,7 @@ int main()
         printf("parent::child process terminated with status %d\n", status);
         fflush(stdout);
         system("ps");
+        exit(1);
     }
 
     return 0;                                                                                                                                                                                  
